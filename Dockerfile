@@ -1,5 +1,7 @@
 FROM php:7.1.12-fpm-alpine
 
+VOLUME /var/www/html
+
 LABEL maintainer="Ric Harvey <ric@ngd.io>"
 
 ENV php_conf /usr/local/etc/php-fpm.conf
